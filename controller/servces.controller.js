@@ -36,6 +36,6 @@ module.exports.getService = (req, res) => {
 }
 module.exports.getServiceById = (req, res) => {
     res.status(200).json({
-        message: "Service fetched successfully"
+        message: "Service fetched successfully by id"
     });
 }
